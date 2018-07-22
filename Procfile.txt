@@ -1,1 +1,1 @@
-$ web: java cp target/massones-1.0.jar com.wslfinc.server.Publisher 
+web: java cp target/massones-1.0.jar -Dhttp.port=${PORT} ${JAVA_OPTS}
