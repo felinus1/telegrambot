@@ -1,1 +1,1 @@
-$ web: java $JAVA_OPTS cp target/massones-1.0.jar com.wslfinc.server.Publisher $PORT
+$ web: java cp target/massones-1.0.jar com.wslfinc.server.Publisher 
